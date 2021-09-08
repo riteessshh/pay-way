@@ -21,6 +21,7 @@ header
   align-items: baseline
   padding: 50px 120px
   .logo
+    flex-basis: 126px
     h1
       font-family: 'Rosario', sans-serif
       font-weight: 400
@@ -29,6 +30,7 @@ header
       margin: 0
       cursor: default
   .donate-button
+    flex-basis: 582px
     display: flex
     align-items: stretch
     h2
@@ -59,3 +61,34 @@ header
   .hero-image
     img
       padding-top: 75px
+
+@media (max-width: 1100px)
+  header
+    padding: 50px
+  .hero
+    padding: 10px 50px
+
+@media (max-width: 770px)
+  header
+    padding: 10px
+    flex-direction: column
+    align-items: center
+    .logo
+      flex-basis: auto
+      padding-bottom: 10px
+    .donate-button
+      text-align: center
+      flex-basis: auto
+      flex-direction: column
+  .hero
+    padding: 10px
+    flex-direction: column-reverse
+    .hero-text
+      width: auto
+      text-align: center
+      h1
+        font-size: 4rem
+    .hero-image
+      padding-bottom: 10px
+      img
+        width: 100%
