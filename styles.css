@@ -114,6 +114,7 @@ header .donate-button h2 {
     padding-bottom: 10px;
   }
   .hero .hero-image img {
+    padding-top: 20px;
     width: 100%;
   }
 }
@@ -129,6 +130,7 @@ header .donate-button h2 {
     text-align: center;
   }
   .hero .hero-image img {
+    padding-top: 20px;
     width: 80%;
   }
 }
