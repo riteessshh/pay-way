@@ -118,6 +118,13 @@ header .donate-button h2 {
   }
 }
 @media (max-width: 380px) {
+  header {
+    padding-bottom: 0;
+  }
+
+  .hero {
+    padding-top: 0;
+  }
   .hero .hero-image {
     text-align: center;
   }
