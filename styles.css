@@ -117,5 +117,13 @@ header .donate-button h2 {
     width: 100%;
   }
 }
+@media (max-width: 380px) {
+  .hero .hero-image {
+    text-align: center;
+  }
+  .hero .hero-image img {
+    width: 80%;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
