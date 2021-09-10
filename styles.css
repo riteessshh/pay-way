@@ -66,7 +66,12 @@ header .donate-button a div {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  box-shadow: 2px 8px 60px rgba(108, 140, 172, 0.25);
+  filter: brightness(0.9);
+  transition: 0.5s;
+}
+header .donate-button a div:hover {
+  filter: brightness(1);
+  box-shadow: 2px 16px 60px rgba(108, 140, 172, 0.25);
 }
 
 .hero {
