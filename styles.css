@@ -51,6 +51,23 @@ header .donate-button h2 {
   padding-right: 10px;
   cursor: default;
 }
+header .donate-button a {
+  text-decoration: none;
+}
+header .donate-button a div {
+  font-family: "Rosario", sans-serif;
+  font-size: 24px;
+  background: white;
+  color: #2F3676;
+  width: 100px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 2px 8px 60px rgba(108, 140, 172, 0.25);
+}
 
 .hero {
   position: relative;
